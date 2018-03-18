@@ -5,34 +5,33 @@
 ---
 @title[Introduction]
 
-## State of affaires
+### State of affaires
 
 In last few years Node.js matured and became the "goto" platform, form startups, enterprises and script kiddies everyone want to use and adopt this new(?) technology.
 
-@fa[arrow-down]
-
 +++
+
 Open source, code sharing, trust and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem. As with all things in life it has its upsides and downsides.
 
 +++
+
 Sometime the wiser Node.js developer should know when not to use Node.js...
 
 ---
 
-## Template Features
+### Tools & Skills
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
+What you should expect from Node.js fullstack developer.
 
----?code=sample/go/server.go&lang=golang&title=Golang File
+- Code Design |
+- High level system architecture |
+- Leading JS libraries and frameworks |
+- Leading SaaS solutions - pros and cons |
+- Devops tools and flows
 
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
++++
+
+Jack of all trades, master of none.
 
 ---
 
