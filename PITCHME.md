@@ -1,16 +1,16 @@
-# Black
+# Fullstack Node.js
 
-### A GitPitch Presentation Template
+## Node.js in the wild
 
 ---
 
-## Tips!
+## State of affaires
 
-<br>
+In last few years Node.js matured and became the "goto" platform, form startups, enterprises and script kiddies everyone want to use and adopt this new(?) technology.
 
-@fa[arrows gp-tip](Press F to go Fullscreen)
+Open source, code sharing, trust and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem. As with all things in life it has its upsides and downsides.
 
-@fa[microphone gp-tip](Press S for Speaker Notes)
+Sometime the wiser Node.js developer should know when not to use Node.js...
 
 ---
 
