@@ -19,15 +19,13 @@ Sometime the wiser Node.js developer should know when not to use Node.js...
 
 ---
 
-### Tools & Skills
+### Fullstack Skills
 
-What you should expect from Node.js fullstack developer.
-
-- Code Design |
+- Large scale code Design |
 - High level system architecture |
 - Leading JS libraries and frameworks |
 - Leading SaaS solutions - pros and cons |
-- Devops tools and flows
+- Devops tools and flows |
 
 +++
 
