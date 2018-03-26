@@ -7,29 +7,37 @@
 
 ### State of affaires
 
-In last few years Node.js matured and became the "goto" platform, form startups, enterprises and script kiddies everyone want to use and adopt this new(?) technology.
+In last few years Node.js matured and became the "goto" platform Fromm startups to enterprises everyone want to use and adopt this new(?) technology.
 
 +++
 
-Open source, code sharing, trust and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem. As with all things in life it has its upsides and downsides.
+Open source and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem.
+
+As with all things in life it has its upsides and downsides. |
 
 +++
 
-Sometime the wiser Node.js developer should know when not to use Node.js...
+The wise Node.js developer knows when not to use Node.js...
 
 ---
 
 ### Fullstack Skills
 
-- Large scale code Design |
+- Large scale code design |
 - High level system architecture |
-- Leading JS libraries and frameworks |
-- Leading SaaS solutions - pros and cons |
+- Knowledge of leading JS libraries and frameworks |
+- SaaS solutions - pros and cons |
 - Devops tools and flows |
 
 +++
 
 Jack of all trades, master of none.
+
+---
+
+### Large scale code design
+
+<a href="http://www.azquotes.com/quote/803741" title="Douglas Crockford quote"><img src="http://www.azquotes.com/picture-quotes/quote-javascript-is-the-only-language-that-i-m-aware-of-that-people-feel-they-don-t-need-to-douglas-crockford-80-37-41.jpg" alt="JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it. - Douglas Crockford"></a>
 
 ---
 
