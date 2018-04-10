@@ -45,11 +45,11 @@ Always keep on learning.
 
 ### Code design
 
-Javascript was developed in 1995 by Netscape under two week to serve as a "glue language" embedded inside HTML pages. It had many implementation, engines and standards in the early days, the missing parts were filled by polyfills or other intermediate languages, the best ones found there way back to the language (Promises, coffeescript, async/await, classes), etc').
+Javascript was developed in 1995 by Netscape under two week to serve as a "glue language" embedded inside HTML pages. It had many engines and conflicting standards in its early days, the missing parts were filled by polyfills or other intermediate languages, the best ones found there way back to the language (Promises, coffeescript, async/await, etc').
 
 +++
 
-As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles.[wiki](https://en.wikipedia.org/wiki/JavaScript)
+As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles [*](https://en.wikipedia.org/wiki/JavaScript).
 
 +++
 
