@@ -7,19 +7,29 @@
 
 ### State of affaires
 
-In last few years Node.js matured and became the "goto" platform Fromm startups to enterprises everyone want to use and adopt this new(?) technology.
+In the last few years Node.js matured and became the "goto" platform Fromm startups to enterprises everyone want to use and adopt this new(?) technology.
 
 +++
 
 Open source and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem.
 
-As with all things in life it has its upsides and downsides. |
++++
+
+The amount and availability of free and open source code, frameworks, tools and addon for Node.js ecosystem is unparalleled to any development platform that came before.
 
 +++
 
-The wise Node.js developer knows when not to use Node.js...
+A good Node.js developer knows how to choose the right solution from the wide array of existing solutions, a smart developer knows how to write his own solution from scratch, and the wise knows when to not to use Node.js at all...
+
++++
+
+<a href="http://www.azquotes.com/quote/267248" title="William Shakespeare quote"><img src="http://www.azquotes.com/picture-quotes/quote-a-fool-thinks-himself-to-be-wise-but-a-wise-man-knows-himself-to-be-a-fool-william-shakespeare-26-72-48.jpg" alt="A fool thinks himself to be wise, but a wise man knows himself to be a fool. - William Shakespeare"></a>
+
+Always keep on learning.
 
 ---
+
+@title[TOC]
 
 ### Fullstack Skills
 
@@ -27,11 +37,11 @@ The wise Node.js developer knows when not to use Node.js...
 - High level system architecture |
 - Knowledge of leading JS libraries and frameworks |
 - SaaS solutions - pros and cons |
-- Devops tools and flows |
-
-Jack of all trades, master of none... |
+- Devops tools and workflows |
 
 ---
+
+@title[Code design]
 
 ### Code design
 
