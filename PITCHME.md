@@ -49,15 +49,23 @@ Javascript was developed in 1995 by Netscape under two week to serve as a "glue 
 
 +++
 
-### Code design
-
 As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles.[wiki](https://en.wikipedia.org/wiki/JavaScript)
 
-The true power of javascript is the ability to write multi-paradigm code effortlessly, taking the best part of each paradigm would lead to better code, ALWAYS choose the simpler solution NOT the "correct" one! |
++++
 
-Even if you don't like code style/paradigm you still need to know how to use read it |
+The true power of javascript is the ability to write multi-paradigm code effortlessly, taking the best part of each paradigm would lead to better code, ALWAYS choose the simpler solution NOT the "correct" one!
 
 +++
+
+Code styles/paradigms comes and goes, in the long run it is better to try out new approaches some will stick.
+
+And remember even if you don't like code style/paradigm you still need to know how to read and use it.
+
++++
+
+<a href="http://www.azquotes.com/quote/765126" title="Alan Perlis quote"><img src="http://www.azquotes.com/picture-quotes/quote-a-language-that-doesn-t-affect-the-way-you-think-about-programming-is-not-worth-knowing-alan-perlis-76-51-26.jpg" alt="A language that doesn't affect the way you think about programming is not worth knowing. - Alan Perlis"></a>
+
+---
 
 ### Large scale design
 
