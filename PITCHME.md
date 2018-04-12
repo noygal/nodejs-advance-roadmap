@@ -33,11 +33,15 @@ Always keep on learning.
 
 ### Fullstack Skills
 
-- Large scale code design |
-- High level system architecture |
-- Knowledge of leading JS libraries and frameworks |
-- SaaS solutions - pros and cons |
-- Devops tools and workflows |
+@ul
+
+- Large scale code design
+- High level system architecture
+- Knowledge of leading JS libraries and frameworks
+- SaaS solutions - pros and cons
+- Devops tools and workflows
+
+@ulend
 
 ---
 
