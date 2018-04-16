@@ -63,6 +63,8 @@ The true power of javascript is the ability to write multi-paradigm code effortl
 
 Code styles/paradigms comes and goes, in the long run it is better to try out new approaches some will stick.
 
++++
+
 And remember even if you don't like code style/paradigm you still need to know how to read and use it.
 
 +++
@@ -79,6 +81,23 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 ### Architecture
 
++++
+
+### Components
+
+Queue
+Gateway
+backend for frontend
+Auth server
+backoffice
+hadoop
+
++++
+
+### Architectures
+
+Onion architecture
+Clean Architecture
 
 ---
 
