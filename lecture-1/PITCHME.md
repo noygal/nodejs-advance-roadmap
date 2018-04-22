@@ -79,22 +79,44 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 ---
 
-### Architecture
+### Software Architecture
+
+intro bla bla
+
++++
+
+Characteristics [wiki](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
+
+@ul
+
+- Multitude of stakeholders
+- Separation of concerns
+- Quality-driven
+- Recurring styles
+- Conceptual integrity - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law
+
+@ulend
 
 +++
 
 ### Components
 
-Queue
-Gateway
-backend for frontend
-Auth server
-backoffice
-hadoop
+@ul
+
+- service/microservice
+- load balancer
+- Queue
+- Gateway
+- backend for frontend
+- Auth server
+- backoffice
+- discovery service
+
+@ulend
 
 +++
 
-### Architectures
+### Patterns
 
 Onion architecture
 Clean Architecture
