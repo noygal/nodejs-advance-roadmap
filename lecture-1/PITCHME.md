@@ -9,9 +9,15 @@
 
 In the last few years Node.js matured and became the "goto" platform Fromm startups to enterprises everyone want to use and adopt this new(?) technology.
 
+Note:
+Examples: ADP - Lifion, Pepper, microsoft chakra engine.
+
 +++
 
 Open source and the [the unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - do one thing and do it well, are the pillars of Node.js and its ecosystem.
+
+Note:
+Stdio stream as communication channels, Node.js vs io.js
 
 +++
 
@@ -20,6 +26,9 @@ The amount and availability of free and open source code, frameworks, tools and 
 +++
 
 A good Node.js developer knows how to choose the right solution from the wide array of existing solutions, a smart developer knows how to write his own solution from scratch, and the wise knows when to not to use Node.js at all...
+
+Note:
+Examples: Picking the right frameworks/libraries long lasting impact, using Node.js or nginx for proxy, "half a day of work" vs adding dependencies, how to use Node.js with other platforms (cli, node-gyp binding, etc')
 
 +++
 
@@ -73,11 +82,13 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 +++
 
-### Code maintenance 
+### Code maintenance
 
 <a href="http://www.azquotes.com/quote/803741" title="Douglas Crockford quote"><img src="http://www.azquotes.com/picture-quotes/quote-javascript-is-the-only-language-that-i-m-aware-of-that-people-feel-they-don-t-need-to-douglas-crockford-80-37-41.jpg" alt="JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it. - Douglas Crockford"></a> 
 
 ---
+
+@title[Architecture]
 
 ### Software Architecture
 
@@ -85,7 +96,7 @@ intro bla bla
 
 +++
 
-Characteristics [wiki](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
+Characteristics - [definitions](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
 
 @ul
 
@@ -96,6 +107,8 @@ Characteristics [wiki](https://en.wikipedia.org/wiki/Software_architecture#Chara
 - Conceptual integrity - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law
 
 @ulend
+
+Notes:
 
 +++
 
@@ -132,102 +145,6 @@ Clean Architecture
 
 @ulend
 
-
----
-
 ---
 
 ### Large scale code design
-
-Javascript
-
----
-
-
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
-
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
-
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
-
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
-
----
-
-## Template Help
-
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
-
----
-
-## Go GitPitch Pro!
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
-
----
-
-### Questions?
-
-<br>
-
-@fa[twitter gp-contact](@gitpitch)
-
-@fa[github gp-contact](gitpitch)
-
-@fa[medium gp-contact](@gitpitch)
-
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
-@title[Download this Template!]
-
-### Get your presentation started!
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/black)
-
