@@ -92,10 +92,6 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 ### Software Architecture
 
-intro bla bla
-
-+++
-
 Characteristics - [definitions](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
 
 @ul
@@ -108,33 +104,41 @@ Characteristics - [definitions](https://en.wikipedia.org/wiki/Software_architect
 
 @ulend
 
-Notes:
+Note:
+Example stakeholders: security team, dev teams, qa team, backoffice(analytics)
 
 +++
 
-### Components
+Software Architecture is hard to master, learned mainly by mistakes - but you don't have to make them yourself 😁
+
+---
+
+### Architecture - Components
 
 @ul
 
-- service/microservice
-- load balancer
-- Queue
-- Gateway
-- backend for frontend
-- Auth server
-- backoffice
-- discovery service
+- DB -  MongoDB, Redis, PostgreSQL, Elasticsearch
+- load balancer - nginx, HAProxy, Amazon ELB
+- Big data - Hadoop/Hive/Presto
+- Queue - RabbitMQ, kafka, activeMQ
+- Gateway / backend for frontend
+- Domain/business service/microservice
 
 @ulend
 
+Note:
+Services Examples: auth services, discovery service, entities services, backoffice service.
+
 +++
 
-### Patterns
+### Architecture - Patterns
 
 Onion architecture
 Clean Architecture
 
 ---
+
+### Best practices
 
 @ul
 
@@ -144,7 +148,3 @@ Clean Architecture
 - Good practices - pick code style guide, linter, tests, git branches from day one.
 
 @ulend
-
----
-
-### Large scale code design
