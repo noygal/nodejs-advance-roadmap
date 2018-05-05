@@ -92,7 +92,7 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 ### Software Architecture
 
-Characteristics - [definitions](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
+Architecture Characteristics - [definitions](https://en.wikipedia.org/wiki/Software_architecture#Characteristics)
 
 @ul
 
@@ -109,6 +109,13 @@ Example stakeholders: security team, dev teams, qa team, backoffice(analytics)
 
 +++
 
+Most modern solutions implement to some extent SOA [(Service-oriented architecture)](https://en.wikipedia.org/wiki/Service-oriented_architecture), so the system level design mandatory for seniority.
+
+Note:
+In monolithic design SOA problems become software problems
+
++++
+
 Software Architecture is hard to master, learned mainly by mistakes - but you don't have to make them yourself 😁
 
 ---
@@ -117,21 +124,21 @@ Software Architecture is hard to master, learned mainly by mistakes - but you do
 
 @ul
 
+- RESTful domain/business service/microservice
+- Messaging/Queue - RabbitMQ, kafka, activeMQ
 - DB -  MongoDB, Redis, PostgreSQL, Elasticsearch
 - load balancer - nginx, HAProxy, Amazon ELB
 - Big data - Hadoop/Hive/Presto
-- Queue - RabbitMQ, kafka, activeMQ
 - Gateway / backend for frontend
-- Domain/business service/microservice
 
 @ulend
 
 Note:
 Services Examples: auth services, discovery service, entities services, backoffice service.
 
-+++
+---
 
-### Architecture - Patterns
+<!-- ### Architecture - Patterns
 
 Onion architecture
 Clean Architecture
@@ -147,4 +154,83 @@ Clean Architecture
 - Automation - build, test, deploy from day one - it force proper dependencies management.
 - Good practices - pick code style guide, linter, tests, git branches from day one.
 
+@ulend -->
+
+### Living with npm dependencies
+
+The open source jungle making picking packages from npm hard - there is no *go to* package for every problem. For long lasting project picking the right dependencies is crucial
+
+Note:
+Example: compond.js, apigee sale to google, dead swagger projects
+
++++
+
+### Evaluation
+
+@ul
+
+- npm - downloads, dependencies, updates
+- Github - stars, PR, docs, issues, general activities
+- Age, popularity, docs
+- Source code review
+- External tools: [npmcompare](https://npmcompare.com/)
+
 @ulend
+
+Note:
+Compare costs to develop inhouse, Binaries dependencies, code commit frequencies
+
++++
+
+### Frameworks
+
+Personally I would advise against, even though it seems like it solves a lot of problems, it actually denial you from the agile development that Node.js known for.
+
+Note:
+Examples: mean, meteor, sail.js - mongodb update problem, reverse engineer workflows
+
+---
+
+### SaaS solutions
+
+If you got a software need most likely there a SaaS solution for that - from all-in-one solutions like firebase, to highly specialized ones.
+
+Note:
+Examples SaaS: perion project, brance.io
+
++++
+
+### Impact
+
+@ul
+
+- Costs
+- Performance
+- Data synchronization/ownership
+- Security
+
+@ulend
+
+---
+
+### Devops
+
+In the last few years the border between dev and ops has been fading, most backend developer will have to use or at least understand devops tools and workflows
+
++++
+
+### Devops tools
+
+@ul
+
+- Docker - mandatory for backend development
+- CI/CD - selfhost: jenkins, teamcity; SaaS: CircleCI, Travis, code fresh
+- AWS
+- Linux - terminal, ssh, monitoring
+
+@ulend
+
+Note:
+kubernetes/docker-compose
+
+<!-- ### Devops Workflows -->
