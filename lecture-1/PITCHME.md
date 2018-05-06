@@ -34,7 +34,7 @@ Examples: Picking the right frameworks/libraries long lasting impact, using Node
 
 <a href="http://www.azquotes.com/quote/267248" title="William Shakespeare quote"><img src="http://www.azquotes.com/picture-quotes/quote-a-fool-thinks-himself-to-be-wise-but-a-wise-man-knows-himself-to-be-a-fool-william-shakespeare-26-72-48.jpg" alt="A fool thinks himself to be wise, but a wise man knows himself to be a fool. - William Shakespeare"></a>
 
-Always keep on learning.
+Never stop learning.
 
 ---
 
@@ -60,6 +60,9 @@ Always keep on learning.
 
 Javascript was developed in 1995 by Netscape under two week to serve as a "glue language" embedded inside HTML pages. It had many engines and conflicting standards in its early days, the missing parts were filled by polyfills or other intermediate languages, the best ones found there way back to the language (Promises, coffeescript, async/await, etc').
 
+Note:
+Large scale javascript applications are relative new thing, javascript import mess
+
 +++
 
 As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles [*](https://en.wikipedia.org/wiki/JavaScript).
@@ -84,7 +87,7 @@ And remember even if you don't like code style/paradigm you still need to know h
 
 ### Code maintenance
 
-<a href="http://www.azquotes.com/quote/803741" title="Douglas Crockford quote"><img src="http://www.azquotes.com/picture-quotes/quote-javascript-is-the-only-language-that-i-m-aware-of-that-people-feel-they-don-t-need-to-douglas-crockford-80-37-41.jpg" alt="JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it. - Douglas Crockford"></a> 
+<a href="http://www.azquotes.com/quote/803741" title="Douglas Crockford quote"><img src="http://www.azquotes.com/picture-quotes/quote-javascript-is-the-only-language-that-i-m-aware-of-that-people-feel-they-don-t-need-to-douglas-crockford-80-37-41.jpg" alt="JavaScript is the only language that I'm aware of that people feel they don't need to learn before they start using it. - Douglas Crockford"></a>
 
 ---
 
@@ -116,9 +119,10 @@ In monolithic design SOA problems become software problems
 
 +++
 
-Software Architecture is hard to master, learned mainly by mistakes - but you don't have to make them yourself 😁
+<img src="http://microservices.io/i/PatternsRelatedToMicroservices.jpg">
 
----
+
++++
 
 ### Architecture - Components
 
@@ -136,12 +140,15 @@ Software Architecture is hard to master, learned mainly by mistakes - but you do
 Note:
 Services Examples: auth services, discovery service, entities services, backoffice service.
 
----
++++
 
+<a href="http://www.azquotes.com/quote/363596" title="Brandon Mull quote"><img src="http://www.azquotes.com/picture-quotes/quote-smart-people-learn-from-their-mistakes-but-the-real-sharp-ones-learn-from-the-mistakes-brandon-mull-36-35-96.jpg" alt="Smart people learn from their mistakes. But the real sharp ones learn from the mistakes of others. - Brandon Mull"></a>
+
+---
 
 ### Living with npm dependencies
 
-The open source jungle making picking packages from npm hard - there is no *go to* package for every problem. For long lasting project picking the right dependencies is crucial
+The open source jungle making picking packages from npm hard - there is no *go to* package for every problem. For long lasting projects - picking the right dependencies is crucial.
 
 Note:
 Example: compond.js, apigee sale to google, dead swagger projects
@@ -161,13 +168,13 @@ Example: compond.js, apigee sale to google, dead swagger projects
 @ulend
 
 Note:
-Compare costs to develop inhouse, Binaries dependencies, code commit frequencies
+Compare costs to develop inhouse, Binaries dependencies, code commit frequencies, code style
 
 +++
 
 ### Frameworks
 
-Personally I would advise against, even though it seems like it solves a lot of problems, it actually denial you from the agile development that Node.js known for.
+Personally I would advise against, even though it seems like it solves a lot of problems, it actually denial you from the agile development that Node.js is best for.
 
 Note:
 Examples: mean, meteor, sail.js - mongodb update problem, reverse engineer workflows
@@ -216,15 +223,9 @@ In the last few years the border between dev and ops has been fading, most backe
 Note:
 kubernetes/docker-compose
 
-<!-- ### Devops Workflows -->
-<!-- ### Architecture - Patterns
-
-Onion architecture
-Clean Architecture
-
 ---
 
-### Best practices
+### Good Practices
 
 @ul
 
@@ -233,4 +234,8 @@ Clean Architecture
 - Automation - build, test, deploy from day one - it force proper dependencies management.
 - Good practices - pick code style guide, linter, tests, git branches from day one.
 
-@ulend -->
+@ulend
+
+---
+
+# Q & A
