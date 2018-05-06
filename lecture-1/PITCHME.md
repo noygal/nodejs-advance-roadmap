@@ -138,23 +138,6 @@ Services Examples: auth services, discovery service, entities services, backoffi
 
 ---
 
-<!-- ### Architecture - Patterns
-
-Onion architecture
-Clean Architecture
-
----
-
-### Best practices
-
-@ul
-
-- Centralize dependencies - it would make for easier updates.
-- Domain driven design - works grate with event-driven system.
-- Automation - build, test, deploy from day one - it force proper dependencies management.
-- Good practices - pick code style guide, linter, tests, git branches from day one.
-
-@ulend -->
 
 ### Living with npm dependencies
 
@@ -234,3 +217,20 @@ Note:
 kubernetes/docker-compose
 
 <!-- ### Devops Workflows -->
+<!-- ### Architecture - Patterns
+
+Onion architecture
+Clean Architecture
+
+---
+
+### Best practices
+
+@ul
+
+- Centralize dependencies - it would make for easier updates.
+- Domain driven design - works grate with event-driven system.
+- Automation - build, test, deploy from day one - it force proper dependencies management.
+- Good practices - pick code style guide, linter, tests, git branches from day one.
+
+@ulend -->
